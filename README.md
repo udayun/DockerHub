@@ -16,11 +16,11 @@ Docker Hub是 Docker 提供的一项服务，用于与您的团队查找和共�
 
 此列表只收录无需限定条件的DockerHub镜像源，感谢这些公益服务者。
 
-**2024年7月24日 亲测可用**
+**2024年10月18日 亲测可用**
 
 | DockerHub镜像仓库                                            | 镜像加速器地址                    |
 | ------------------------------------------------------------ | --------------------------------- |
-| [镜像使用说明](https://dockerhub.icu/)                       | `https://dockerhub.icu`           |
+| [镜像使用说明](https://dockerpull.com/)                       | `https://dockerpull.com`           |
 |                                                              | `hub.rat.dev`                     |
 |                                                              | `docker.wanpeng.top`              |
 | [镜像使用说明](https://doublezonline.cloud/)                 | `https://doublezonline.cloud`     |
@@ -58,9 +58,9 @@ sudo mkdir -p /etc/docker
 sudo tee /etc/docker/daemon.json <<EOF
 {
     "registry-mirrors": [
-        "https://docker.anyhub.us.kg",
-        "https://dockerhub.icu",
-        "https://docker.awsl9527.cn"
+        "https://dockerproxy.cn",
+        "https://dockerpull.com",
+        "https://docker.udayun.com"
     ]
 }
 EOF
@@ -68,10 +68,10 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 
-2. 使用DockerHub Proxy，以下以 `hub.uuuadc.top` 为例：可以根据列表自行替换
+2. 使用DockerHub Proxy，以下以 `docker.udayun.com` 为例：可以根据列表自行替换
 
 ```sh
-docker pull hub.uuuadc.top/library/mysql:5.7
+docker pull docker.udayun.com/library/mysql:5.7
 ```
 
 说明：library是一个特殊的命名空间，它代表的是官方镜像。如果是某个用户的镜像就把library替换为镜像的用户名
