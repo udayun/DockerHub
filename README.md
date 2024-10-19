@@ -21,8 +21,8 @@ Docker Hub是 Docker 提供的一项服务，用于与您的团队查找和共�
 | DockerHub镜像仓库                                            | 镜像加速器地址                    |
 | ------------------------------------------------------------ | --------------------------------- |
 | [镜像使用说明](https://dockerpull.com/)                       | `https://dockerpull.com`           |
-|                                                              | `hub.rat.dev`                     |
-|                                                              | `docker.wanpeng.top`              |
+| [镜像使用说明](https://hub.rat.dev/)                         | `hub.rat.dev`                     |
+| [镜像使用说明](https://docker.wanpeng.top/)                  | `docker.wanpeng.top`              |
 | [镜像使用说明](https://doublezonline.cloud/)                 | `https://doublezonline.cloud`     |
 | [镜像使用说明](https://docker.mrxn.net/)                     | `https://docker.mrxn.net`         |
 | [镜像使用说明](https://docker.udayun.com/)                     | `https://docker.udayun.com`         |
